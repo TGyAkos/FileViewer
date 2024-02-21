@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="FangYuan %281%29.jpg" />
+    <None Remove="flat,750x,075,f-pad,750x1000,f8f8f8.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="FangYuan (1).jpg" />
+    <Resource Include="flat,750x,075,f-pad,750x1000,f8f8f8.jpg" />
+  </ItemGroup>
+
+</Project>
